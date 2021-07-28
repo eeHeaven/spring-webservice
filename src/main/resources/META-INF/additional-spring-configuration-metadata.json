@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "jdk.tls.useExtendedMasterSecret",
+      "type": "java.lang.String",
+      "description": "Description for jdk.tls.useExtendedMasterSecret."
+  }
+] }

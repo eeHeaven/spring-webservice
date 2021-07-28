@@ -1,0 +1,51 @@
+### 직접 JSON 사용
+POST https://localhost:8081/group
+Content-Type: application/json
+
+{
+  "groupName": "그룹명",
+  "members": [
+    "회원1",
+    "회원2",
+    "회원3"
+  ],
+  "date": {
+    "year": 2018,
+    "month": 1,
+    "day": 24
+  }
+}
+### 로컬 파일 사용
+
+POST http://localhost:8081/group
+Content-Type: application/json
+
+< ./post.json
+
+### 로컬
+GET http://localhost:8081/hello
+
+### 개발 오류
+GET http://localhost:8081/dev/hello
+
+### 개발 정상
+GET http://localhost:8081/dev/hello
+Authorization: DEV
+
+### 운영
+GET http://localhost:8081/real/hello
+Authorization: PRODUCTION
+
+### Cookie
+GET http://localhost:8081/cookie
+Cookie: user = heaven
+
+### Posts
+POST http://localhost:8081/posts
+Content-Type: application/json
+
+{
+  "title": "테스트 타이틀",
+  "content": "테스트 본문",
+  "author": "heaven"
+}
