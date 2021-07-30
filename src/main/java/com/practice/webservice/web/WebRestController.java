@@ -2,8 +2,8 @@ package com.practice.webservice.web;
 
 import com.practice.webservice.domain.posts.PostsRepository;
 import com.practice.webservice.service.PostsService;
+import com.practice.webservice.web.dto.PostsSaveRequestDto;
 import lombok.AllArgsConstructor;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;

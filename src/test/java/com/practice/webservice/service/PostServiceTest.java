@@ -2,7 +2,7 @@ package com.practice.webservice.service;
 
 import com.practice.webservice.domain.posts.Posts;
 import com.practice.webservice.domain.posts.PostsRepository;
-import com.practice.webservice.web.PostsSaveRequestDto;
+import com.practice.webservice.web.dto.PostsSaveRequestDto;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.practice.webservice.web;
+package com.practice.webservice.web.dto;
 
 import com.practice.webservice.domain.posts.Posts;
 import lombok.Builder;
